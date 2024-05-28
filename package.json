@@ -1,0 +1,16 @@
+{
+  "name": "approximating",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "Set of functions for efficient implementation of approximate (fuzzy) search",
+  "main": "approximating.js",
+  "keywords": [
+    "approximate",
+    "search",
+    "levenshtein",
+    "distance",
+    "myers"
+  ],
+  "author": "Oleksii Raspopov",
+  "license": "ISC"
+}
