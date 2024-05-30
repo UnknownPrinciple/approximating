@@ -1,5 +1,6 @@
-// this should be enough to cover all unicode symbols
-let peq = new Uint32Array(0x25000);
+// IDEA if I can find how to drop substitution from myers algorithm, I get matching() for free
+
+let peq = new Uint32Array(0x10000);
 
 /**
  * @param {string} pattern

@@ -44,6 +44,27 @@ test("numeric matching", () => {
 	equal(distance(p, t), distanceWagnerFischer(p, t));
 });
 
+test("prefix", () => {
+	let p = "1234";
+	let t = "12347890";
+	equal(distance(p, t), distance(t, p), "Distance function should be symmetric");
+	equal(distance(p, t), distanceWagnerFischer(p, t));
+});
+
+test("middle", () => {
+	let p = "3478";
+	let t = "12347890";
+	equal(distance(p, t), distance(t, p), "Distance function should be symmetric");
+	equal(distance(p, t), distanceWagnerFischer(p, t));
+});
+
+test("suffix", () => {
+	let p = "7890";
+	let t = "12347890";
+	equal(distance(p, t), distance(t, p), "Distance function should be symmetric");
+	equal(distance(p, t), distanceWagnerFischer(p, t));
+});
+
 test("xmmjyauz/mmzjawxu", () => {
 	let p = "xmmjyauz";
 	let t = "mmzjawxu";

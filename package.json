@@ -11,6 +11,9 @@
     "distance",
     "myers"
   ],
+  "files": [
+    "approximating.js"
+  ],
   "author": "Oleksii Raspopov",
   "license": "ISC"
 }
